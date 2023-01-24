@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form tag</title>
+  </head>
+
+  <body>
+    <form
+      action="https://www.google.com/search?gs_ssp"
+      method="get"
+      target="_blank"
+    >
+      <input type="text" name="q" placeholder="enter search text" />
+      <input type="submit" />
+    </form>
+    <form>
+      first name:
+      <input type="text" name="first name" maxlength="25" required /> <br />
+      last name: <input type="text" name="last name" maxlength="25" required />
+      <br />
+      user id : <input type="text" name="user id" /> <br />
+      password : <input type="password" name="password" /> <br />
+      mobile number: <input type="number" /> <br />
+
+      email : <input type="email" /> <br />
+      select the subjects
+      <input type="checkbox" name="maths" value="on" checked="true" /> maths
+      <input type="checkbox" name="physics" value="on" />physics <br />
+      discription:
+      <br />
+      gender <br />
+      <input type="radio" name="gender" value="male" /> male <br />
+      <input type="radio" name="gender" value="female" />female <br />
+      <textarea rows="5" cols="50" name="description">
+                enter discription here...
+      </textarea>
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
